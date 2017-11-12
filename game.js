@@ -634,16 +634,14 @@ AlienBullet.prototype = new Bullet();
 
 Asteroid = function () {
   this.init("asteroid",
-            [-10,   0,
-              -5,   7,
-              -3,   4,
-               1,  10,
+            [-8,   -4,
+              -8,   7,
+              -5,   3,
+               6,  10,
                5,   4,
-              10,   0,
+              13,   8,
                5,  -6,
-               2, -10,
-              -4, -10,
-              -4,  -5]);
+               -4, -10,]);
 
   this.visible = true;
   this.scale = 6;
